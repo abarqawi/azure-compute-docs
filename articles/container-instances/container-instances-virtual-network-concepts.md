@@ -50,6 +50,7 @@ Container groups deployed into an Azure virtual network enable scenarios like:
 * [IPv6 addresses](/azure/virtual-network/ip-services/ipv6-overview) aren't supported at this time.
 * Depending on your subscription type, [certain ports could be blocked](/azure/virtual-network/network-security-groups-overview#azure-platform-considerations).
 * Container instances don't read or inherit DNS settings from an associated virtual network. DNS settings must be explicitly set for container instances.
+* Support for private or network-restricted registry endpoints is primarily limited to Azure Container Registry (ACR).
 
 ## Deploy Container Groups to a Virtual Network
 
